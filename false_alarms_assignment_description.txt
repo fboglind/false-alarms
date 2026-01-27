@@ -1,0 +1,25 @@
+CM2011 False Alarms 
+
+Introduction
+
+Alarm fatigue is a significant issue in highly critical care settings, with personnel relying mostly on intuition, experience and informal rules to distinguish between "real" and "false" alarms. This is of particular concern in non-specific conditions. 
+
+Tasks
+
+Use the dataset linked below, to predict whether or not an alarm is True or False. 
+
+https://physionet.org/content/vtac/ Links to an external site.
+
+Important:
+
+1. Provide documentation and an explanation for every step. 
+
+2. Provide all details of any data cleaning and data exploration you performed, including number of rows deleted, columns deleted or merged etc. Motivate your reasoning for why you performed any cleaning/pre-processing. 
+
+3. Use imputation for missing values, if you need to. You can choose any imputation strategy, but motivate your reasoning for your strategy. 
+
+4. Explain your modeling strategy. Which model(s) did you use, how did you model the different waveforms in the dataset, and why? 
+
+5. Compare your (best) model performance not only against each other, but against your choice of imputation strategy (if you needed to use imputation). Does your model perform better or worse with or without imputation? Similarly, is it better to impute missing data or to throw it out? 
+
+6. Use feature importance techniques (on your best model) to describe which features (in this case waveforms) best predict the target. Recursive feature engineering is a good technique to try.  

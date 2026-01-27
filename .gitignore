@@ -1,0 +1,27 @@
+# Ignore cache and system files
+__pycache__/
+ __MACOSX/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore old files 
+ICU*
+
+# Ignore dataset and output files
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.log
+*.out
+*.pt  # PyTorch checkpoint files
+
+#Ignore swap and temp files
+*.un~
+*.swp
+*tmp
+
