@@ -20,6 +20,10 @@ ICU*
 *.out
 *.pt  # PyTorch checkpoint files
 
+# Ignore assignment instrucions files
+file_struct_README.md
+false_alarms_assignment_description.txt
+
 # Ignore dirs
 **waveforms/
 
