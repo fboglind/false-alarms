@@ -20,6 +20,9 @@ ICU*
 *.out
 *.pt  # PyTorch checkpoint files
 
+# Ignore dirs
+**waveforms/
+
 #Ignore swap and temp files
 *.un~
 *.swp
