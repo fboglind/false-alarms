@@ -26,6 +26,9 @@ false_alarms_assignment_description.txt
 
 # Ignore dirs
 **waveforms/
+**raw_data/
+**models/
+**VTaC/
 
 #Ignore swap and temp files
 *.un~
