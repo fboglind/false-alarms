@@ -1,37 +1,28 @@
-# Ignore cache and system files
-__pycache__/
- __MACOSX/
-*.pyc
-*.pyo
+# Keep the public repository focused on the final hand-in.
+*
 
-# Ignore virtual environments
+!.gitignore
+!README.md
+!hand-in/
+!hand-in/**
+
+# Never commit local data, environments, caches, or generated noise.
+**/raw_data/
+**/waveforms/
+**/__pycache__/
+**/.ipynb_checkpoints/
 venv/
+.venv/
 env/
 
-# Ignore old files 
-ICU*
-
-# Ignore dataset and output files
-*.csv
-*.tsv
-*.json
-*.jsonl
+*.pyc
+*.pyo
 *.log
 *.out
-*.pt  # PyTorch checkpoint files
-
-# Ignore assignment instrucions files
-file_struct_README.md
-false_alarms_assignment_description.txt
-
-# Ignore dirs
-**waveforms/
-**raw_data/
-**models/
-**VTaC/
-
-#Ignore swap and temp files
-*.un~
+*.tmp
 *.swp
-*tmp
+*.un~
+
+# Keep large local model folders out unless intentionally added.
+**/models/
 
