@@ -2,7 +2,7 @@
 
 This repository contains the hand-in for CM2011 Assignment 1, which explores the VTaC ventricular tachycardia alarm dataset and trains baseline classifiers to distinguish true VT alarms from false alarms.
 
-The canonical project files are in [`hand-in/`](hand-in/). Other top-level notebooks and scripts were exploratory working files and are not needed for the final submission.
+The relevant project files are in [`hand-in/`](hand-in/). Other top-level notebooks and scripts were exploratory working files and are not needed for the final submission.
 
 ## Project Summary
 
@@ -111,13 +111,4 @@ Logistic regression achieved the strongest F1 score and very high recall, while 
 
 Recursive feature elimination ranked standard deviation features highest, especially `ABP_std` and `PLETH_std`. This suggests that waveform variability is more informative than absolute signal level after per-event normalization.
 
-## Repository Scope
-
-The final submission lives in `hand-in/`. The `.gitignore` is configured so future additions stay focused on the submission directory and do not accidentally include raw waveform data, virtual environments, caches, or exploratory outputs.
-
-If you want the Git history itself to contain only the final hand-in files, remove the already-tracked exploratory files from the index while keeping them locally:
-
-```bash
-git rm --cached 003c13_0115_plot.png bias_variance.ipynb filtering.py fredrik_boglind_assingment1*.ipynb getting_started_vtac.py load_waveforms.py requirements.txt standardize.py utility_functions.py false_alarms_assignment_description.txt
-git commit -m "Limit repository to hand-in submission"
 ```
